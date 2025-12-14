@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { Sparkles, Zap, TrendingUp, Target, AlertCircle } from "lucide-react";
 import Navbar from "@/components/custom/navbar";
-import CardPremium from "@/components/custom/card-premium";
+import CardPremium from "../components/custom/card-premium";
 import { useRouter } from "next/navigation";
 import { generateContent } from "@/lib/openai";
 import { saveToHistory } from "@/lib/history";
